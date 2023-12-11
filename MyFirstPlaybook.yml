@@ -16,19 +16,6 @@
 
 
 
-  - name: install git server
-    apt:
-        name: git 
-        state: present
-
-  - name: Start service git, if not started
-    service:
-      name: git
-      state: started
-
-
-
-
   - name: install wget
     apt:
         name: wget 
