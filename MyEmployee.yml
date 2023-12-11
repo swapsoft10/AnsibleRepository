@@ -1,0 +1,23 @@
+---
+- employeelist:
+  - name: Swapnil
+    phoneno: 987654321
+    address: 
+       doorno: 201
+       streetno: 1st cross
+       pincode: 400032
+
+  - name: Vinay
+    phoneno: 768905432
+    address: 
+       doorno: 202
+       streetno: 2st cross
+       pincode: 400031
+
+  - name: Alok
+    phoneno: 997654325
+    address: 
+        doorno: 201
+        streetno: 3st cross
+        pincode: 400030
+
