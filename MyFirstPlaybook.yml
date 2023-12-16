@@ -1,10 +1,10 @@
 ---
-- hosts: all
+- hosts: mywebser
   become: yes
   tasks:
   - name: install apache2 server
     apt:
-        name: apache2
+        name: "{{mywebser}}"
         state: present
     
     
