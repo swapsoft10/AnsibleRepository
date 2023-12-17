@@ -8,16 +8,11 @@
         update_cache: yes 
         state: latest
 
-  - name: install java 11 on ubuntu server
+  - name: install java on ubuntu server
     apt: 
-        name: "{{myjava11installonubuntu}}"
+        name: "{{myjavainstallonubuntu}}"
         update_cache: yes 
         state: latest
 
-  - name: install java 8 on ubuntu server
-    apt: 
-        name: "{{myjava13installonubuntu}}"
-        update_cache: yes 
-        state: latest
 
   
