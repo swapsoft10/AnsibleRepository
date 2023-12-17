@@ -1,5 +1,5 @@
 ---
-- hosts: Installapache2
+- hosts: Installapache
   become: yes
   tasks:
   - name: install apache2 server
