@@ -3,5 +3,5 @@
 
 ---
 [webservers:vars]
-variable: value
-mywebpackonubuntu: apache2
+variable= value
+mywebpackonubuntu= apache2
