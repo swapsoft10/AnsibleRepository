@@ -4,5 +4,5 @@
   tasks:
   - name: install apache2 server
     apt:
-        name: apache2
+        name: git
         state: present
