@@ -1,0 +1,8 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks:
+  - name: install java on ubuntu
+    apt:
+        name: "{{myjavaonubuntu}}"
+        state: present
