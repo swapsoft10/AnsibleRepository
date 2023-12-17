@@ -10,7 +10,7 @@
 
   - name: install git on ubuntu server
     apt: 
-        name: "{{myjavainstallonubuntu}}"
+        name: "{{mygitinstallonubunt}}"
         update_cache: yes 
         state: latest
 
