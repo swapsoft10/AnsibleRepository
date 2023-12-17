@@ -1,8 +1,0 @@
----
-- hosts: myjavainstall
-  become: yes
-  tasks:
-  - name: install java on ubuntu
-    apt:
-        name: "{{myjavainstallonubuntu}}"
-        state: present
