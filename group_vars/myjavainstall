@@ -1,0 +1,3 @@
+---
+variable: value
+myjavainstallonubuntu: openjdk-11-jdk
