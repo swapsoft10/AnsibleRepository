@@ -7,3 +7,23 @@
         name: "{{mywebpackonubuntu}}"
         update_cache: yes 
         state: latest
+
+  - name: install git on ubuntu server
+    apt: 
+        name: "{{myjavainstallonubuntu}}"
+        update_cache: yes 
+        state: latest
+
+  - name: install java 11 on ubuntu server
+    apt: 
+        name: "{{myjava11installonubuntu}}"
+        update_cache: yes 
+        state: latest
+
+  - name: install java 13 on ubuntu server
+    apt: 
+        name: "{{myjava13installonubuntu}}"
+        update_cache: yes 
+        state: latest
+
+  

@@ -1,4 +1,6 @@
 ---
 variable: value
 mywebpackonubuntu: apache2
-myjavainstallonubuntu: openjdk-11-jdk
+mygitinstallonubuntu: git
+myjava11installonubuntu: openjdk-11-jdk
+
