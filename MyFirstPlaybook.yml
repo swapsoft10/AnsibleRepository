@@ -1,10 +1,10 @@
 ---
-- hosts: installapache
+- hosts: webservers
   become: yes
   tasks:
   - name: install apache2 server
     apt:
-        name: "{{mywebpack}}"
+        name: "{{mywebpackonubuntu}}"
         state: present
     
     
