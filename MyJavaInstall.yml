@@ -1,9 +1,10 @@
 ---
 - hosts: mywebservers
   become: yes
-  tasks:
+  tasks:  
   - name: install java on ubuntu server
     apt: 
         name: "{{myjavainstallonubuntu}}"
         update_cache: yes 
         state: latest
+        
