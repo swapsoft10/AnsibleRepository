@@ -1,9 +1,15 @@
 ---
-- hosts: all
+- hosts: mywebservers
   become: yes
   tasks:
-  - name: install apache2 server
+  - name: install apache2 on ubuntu server
     apt: 
-        name: apache2
+        name: "{{mywebpackonubuntu}}"
+        update_cache: yes 
+        state: latest
+
+  - name: install java on ubuntu server
+    apt: 
+        name: "{{myjavainstallonubuntu}}"
         update_cache: yes 
         state: latest
