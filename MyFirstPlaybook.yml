@@ -6,6 +6,3 @@
     apt:
         name: "{{mywebpackonubuntu}}"
         state: present
-    
-    
-
