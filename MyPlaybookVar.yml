@@ -10,13 +10,13 @@
     debug: 
        msg: "{{myfirsttaskresult}}"
 
-  - name: install git
+  - name: install git if myfirsttaskresult.stderr != ""
     apt:
       name: git
       state: present 
     when: myfirsttaskresult.stderr != ""  
 
-  - name: install wget
+  - name: install wget myfirsttaskresult.stderr == ""
     apt:
       name: wget
       state: present     
