@@ -11,7 +11,7 @@
     apt: 
        name: wget
        statee: present
-    ignore_unreachable: true
+    ignore_unreachable: yes
 
   - name: install tree
     apt: 
